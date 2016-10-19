@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#wrapper{
+	width: 97%;
+	height: 700px;
+	margin: 10px auto;
+
+	border: 5px solid #eee;
+}
+
+#chatWin{
+	float: left;
+	
+	width: 70%;
+	height: 570px;
+}
+
+#history {
+	width: 100%;
+}
