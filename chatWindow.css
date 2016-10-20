@@ -17,6 +17,7 @@ ul{
 }
 
 #wrapper{
+	position: relative;
 	width: 97%;
 	height: 700px;
 	margin: 10px auto;
@@ -27,10 +28,53 @@ ul{
 #chatWin{
 	float: left;
 	
-	width: 70%;
+	width: 80%;
 	height: 570px;
+	padding: 10px;
+
 }
 
 #history {
-	width: 100%;
+	width: 98%;
+	height: 79%;
+}
+
+#onlineList {
+	float: right;
+
+	height: 570px;
+	width: 16%;
+	padding: 10px;
+
+}
+
+#text {
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+
+	width: 98%;
+
+}
+
+#textbox {
+	float: left;
+
+	height: 100px;
+	width: 80%;
+}
+
+#send {
+	float: right;
+
+	width: 18%;
+	height: 100px;
+}
+
+#text span {
+	display: inline-block;
+	padding: 5px;
+
+
+
 }
